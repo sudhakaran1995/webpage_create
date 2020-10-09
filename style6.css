@@ -1,0 +1,27 @@
+
+#slider
+{
+	margin-top: 60px;
+}
+
+
+#slider.item
+{
+	height: 400px;
+}
+#slider1
+{
+	background:url('images/niki.jpg') center no-repeat;
+}
+#slider2
+{
+background:url('images/logo.jpg') center no-repeat;
+}	
+#slider3
+{
+	background:url('images/taj.jpg') center no-repeat;
+}
+.carousel-caption
+{
+	font-size: 20px;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>validation form</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,inital-scale=1">
+	<script type="text/javascript">
+		function validation() {
+      var username = document.getElementById("uname");
+      var password = document.getElementById("pass");
+      if(username.value =="" ||password.value =="")
+      {
+      	alert("No blank values allowed");
+      }
+		else
+		{
+			
+		}
+		}
+	</script>
+</head>
+<body>
+<form>
+	<input type="text" id="uname" placeholder="username">
+	<br>
+	<br>
+	<input type="password" id="pass" placeholder="password">
+	<br>
+	<br>
+	<button type="submit">submit</button>
+</form>
+</body>
+</html>
